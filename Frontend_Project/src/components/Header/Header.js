@@ -1,0 +1,26 @@
+import React from "react";
+const Header = () => {
+  return (
+    <>
+      <nav className="navbar navbar-dark bg-primary ">
+        <div className="container-fluid">
+          <a className="navbar-brand fs-3 px-5">Food ADDA</a>
+          <div className="lg-rg bg-primary mx-2 px-2">
+            <a href="login.html">
+              <button type="button" className="btn btn-outline-light mx-2">
+                Login
+              </button>
+            </a>
+            <a href="register.html">
+              <button type="button" className="btn btn-outline-light mx-2">
+                Register
+              </button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </>
+  )
+}
+
+export default Header;
