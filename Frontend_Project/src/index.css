@@ -1,0 +1,33 @@
+.category-slide-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.category-slide-container .contain {
+    display: inline-block;
+}
+.category-slide-container .card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    width: 18rem; /* Set a fixed width for each card */
+    margin-right: 1rem; /* Add spacing between cards */
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    height: max-content;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    transition: all 0.2s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-body p{
+
+    margin: 10px;
+}
