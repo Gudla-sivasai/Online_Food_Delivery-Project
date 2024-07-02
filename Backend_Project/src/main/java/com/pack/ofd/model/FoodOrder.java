@@ -1,6 +1,7 @@
 package com.pack.ofd.model;
 
 import java.sql.Date;
+import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,7 +14,6 @@ public class FoodOrder {
     @GeneratedValue
     private int orderId;
     private int customerId;
-    private int restaurantId;
     private Date orderDate;
     private String status;
  
@@ -29,12 +29,6 @@ public class FoodOrder {
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
-    public int getRestaurantId() {
-        return restaurantId;
-    }
-    public void setRestaurantId(int restaurantId) {
-        this.restaurantId = restaurantId;
-    }
     public Date getOrderDate() {
         return orderDate;
     }
@@ -47,5 +41,9 @@ public class FoodOrder {
     public void setStatus(String status) {
         this.status = status;
     }
+	public void setOrderItems(List<OrderItem> orderItems) {
+		// TODO Auto-generated method stub
+		
+	}
     
 }
