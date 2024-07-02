@@ -19,7 +19,6 @@ public class User {
 	private String street;
 	private String city;
 	private String pinCode;
-	private String userType;
 	
 	public int getUserId() {
 		return userId;
@@ -75,11 +74,5 @@ public class User {
 	public void setPinCode(String pinCode) {
 		this.pinCode = pinCode;
 	}
-	public String getUserType() {
-		return userType;
-	}
-	public void setUserType(String userType) {
-		this.userType = userType;
-	}
-		
+	
 }
