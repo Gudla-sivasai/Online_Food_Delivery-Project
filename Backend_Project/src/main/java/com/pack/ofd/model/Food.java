@@ -10,10 +10,13 @@ public class Food {
 	@Id
 	@GeneratedValue
 	private int foodId;
+	private String foodImgUrl;
+	private String foodImgUrl2;
+	private String foodImgUrl3;
 	private String name;
 	private double price;
 	private String description;
-	private int catergoryId;
+	private String categoryName;
 	private int restaurantId;
 	
 	public int getFoodId() {
@@ -21,6 +24,24 @@ public class Food {
 	}
 	public void setFoodId(int foodId) {
 		this.foodId = foodId;
+	}
+	public String getFoodImgUrl() {
+		return foodImgUrl;
+	}
+	public void setFoodImgUrl(String foodImgUrl) {
+		this.foodImgUrl = foodImgUrl;
+	}
+	public String getFoodImgUrl2() {
+		return foodImgUrl2;
+	}
+	public void setFoodImgUrl2(String foodImgUrl2) {
+		this.foodImgUrl2 = foodImgUrl2;
+	}
+	public String getFoodImgUrl3() {
+		return foodImgUrl3;
+	}
+	public void setFoodImgUrl3(String foodImgUrl3) {
+		this.foodImgUrl3 = foodImgUrl3;
 	}
 	public String getName() {
 		return name;
@@ -40,11 +61,11 @@ public class Food {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public int getCatergoryId() {
-		return catergoryId;
+	public String getCategoryName() {
+		return categoryName;
 	}
-	public void setCatergoryId(int catergoryId) {
-		this.catergoryId = catergoryId;
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
 	}
 	public int getRestaurantId() {
 		return restaurantId;
