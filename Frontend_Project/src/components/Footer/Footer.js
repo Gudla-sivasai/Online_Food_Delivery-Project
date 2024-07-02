@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
     return(
     <>
-    <footer className="bg-dark text-light py-3 ">
-        <div className="container-fluid row text-center my-3">
+    <footer className="bg-dark text-light py-3 main-footer">
+        <div className=" footer-data container-fluid row text-center my-3 ">
             <div className="established col my-2">
                 <h2>Established</h2>
                 <p>2024, India</p>
