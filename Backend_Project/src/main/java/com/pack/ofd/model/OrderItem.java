@@ -12,7 +12,7 @@ public class OrderItem {
 	private int itemId;
 	private int orderId;
 	private int foodId;
-    private int restaurantId;
+    	private int restaurantId;
 	private int quantity;
 	private String foodImgUrl;
 	
