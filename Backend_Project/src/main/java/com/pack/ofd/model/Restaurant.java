@@ -10,8 +10,8 @@ public class Restaurant {
 	@Id
 	@GeneratedValue
 	private int restaurantId;
-	private String firstName;
-	private String lastName;
+	private String restaurantName;
+	private String ownerName;
 	private String emailId;
 	private String password;
 	private long phoneNumber;
@@ -25,17 +25,17 @@ public class Restaurant {
 	public void setRestaurantId(int restaurantId) {
 		this.restaurantId = restaurantId;
 	}
-	public String getFirstName() {
-		return firstName;
+	public String getRestaurantName() {
+		return restaurantName;
 	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setRestaurantName(String restaurantName) {
+		this.restaurantName = restaurantName;
 	}
-	public String getLastName() {
-		return lastName;
+	public String getOwnerName() {
+		return ownerName;
 	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setOwnerName(String ownerName) {
+		this.ownerName = ownerName;
 	}
 	public String getEmailId() {
 		return emailId;
