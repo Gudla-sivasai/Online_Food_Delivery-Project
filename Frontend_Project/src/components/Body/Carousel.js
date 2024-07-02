@@ -1,7 +1,7 @@
 import React from 'react';
-import {image1, image2, image3} from '../Images/image';
 
 const Carousel = () => {
+
     return(
     <div className="body my-3">
         <div className="container shadow bg-light py-2 my-5">
@@ -17,22 +17,23 @@ const Carousel = () => {
                  </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
-                        <img src={image1} className="d-block w-100" alt="..." height="500" width="400"/>
+                        <img src="https://www.baltana.com/files/wallpapers-2/Food-HD-Pictures-04863.jpg" className="d-block w-100" alt="image-1" height="500" width="400"/>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                      </div>
                      <div className="carousel-item" data-bs-interval="2000">
-                        <img src={image2} className="d-block w-100" alt="..." height="500" width="400"/>
-                        <div class="carousel-caption d-none d-md-block">
+
+                        <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" alt="image-2" height="500" width="400"/>
+                        <div class="carousel-caption d-none d-md-block text-light">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={image3} className="d-block w-100" alt="..." height="500" width="400"/>
-                        <div className="carousel-caption d-none d-md-block">
+                        <img src="https://th-i.thgim.com/public/incoming/vricut/article65937264.ece/alternates/LANDSCAPE_1200/Spicy%20Venue-apricot%20delight.jpg" className="d-block w-100" alt="image-3" height="500" width="400"/>
+                        <div className="carousel-caption d-none d-md-block bg-light rounded-pill mx-5 my-3">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
                         </div>
